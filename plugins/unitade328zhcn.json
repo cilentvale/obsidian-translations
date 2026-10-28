@@ -3,10 +3,10 @@
   "metadata": {
     "plugin": "unitade",
     "language": "zh-cn",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "supportedVersions": "3.2.8",
     "title": "UNITADE.md 3.2.8 简体中文",
-    "description": "汉化设置、警告、命令、弹窗及状态栏，保留危险操作提示。",
+    "description": "汉化设置、警告、命令、弹窗及状态栏，并修复空扩展名导致的视图重复注册。",
     "author": "cilentvale"
   },
   "dict": {
@@ -52,6 +52,10 @@
         {
           "source": "setButtonText(\"Rename\")",
           "target": "setButtonText(\"重命名\")"
+        },
+        {
+          "source": "const forced_extensions = this.settings.forced_extensions.split(\">\").map((s) => s.trim());",
+          "target": "const forced_extensions = this.settings.forced_extensions.split(\">\").map((s) => s.trim()).filter(Boolean);"
         }
       ]
     }
