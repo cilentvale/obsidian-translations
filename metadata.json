@@ -37,5 +37,18 @@
         "created_at": "2026-10-28T09:45:52.607Z",
         "updated_at": "2026-10-28T09:45:52.607Z",
         "type": "plugin"
+    },
+    {
+        "id": "omnisearch1320zhcn",
+        "plugin": "omnisearch",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.32.0",
+        "title": "Omnisearch 1.32.0 简体中文",
+        "description": "适配 Omnisearch 1.32.0，翻译主要设置、选项和搜索命令。",
+        "hash": "1a7d13201a7d13201a7d13201a7d1320",
+        "created_at": "2026-10-28T10:05:15.390Z",
+        "updated_at": "2026-10-28T10:05:15.390Z",
+        "type": "plugin"
     }
 ]
