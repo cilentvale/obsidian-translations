@@ -1,0 +1,312 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "omnisearch",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "1.32.0",
+        "title": "Omnisearch 1.32.0 简体中文",
+        "description": "适配 Omnisearch 1.32.0，翻译主要设置、选项和搜索命令。",
+        "author": "cilentvale"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": [
+                {
+                    "source": "\"Behavior\"",
+                    "target": "\"行为\""
+                },
+                {
+                    "source": "\"Save index to cache\"",
+                    "target": "\"将索引保存到缓存\""
+                },
+                {
+                    "source": "\"Show previous query results\"",
+                    "target": "\"显示上次搜索结果\""
+                },
+                {
+                    "source": "\"Folders to downrank in search results\"",
+                    "target": "\"降低搜索结果排名的文件夹\""
+                },
+                {
+                    "source": "\"Split CamelCaseWords\"",
+                    "target": "\"拆分驼峰命名词\""
+                },
+                {
+                    "source": "\"Simpler search\"",
+                    "target": "\"简化搜索\""
+                },
+                {
+                    "source": "\"Tokenize URLs\"",
+                    "target": "\"拆分网址词项\""
+                },
+                {
+                    "source": "\"Open in new pane\"",
+                    "target": "\"在新窗格中打开\""
+                },
+                {
+                    "source": "\"Set Vim like navigation keys\"",
+                    "target": "\"启用 Vim 风格导航键\""
+                },
+                {
+                    "source": "\"Fuzziness\"",
+                    "target": "\"模糊匹配程度\""
+                },
+                {
+                    "source": "\"Danger Zone\"",
+                    "target": "\"危险区域\""
+                },
+                {
+                    "source": "\"Ignore diacritics\"",
+                    "target": "\"忽略变音符号\""
+                },
+                {
+                    "source": "\"Ignore Arabic diacritics (beta)\"",
+                    "target": "\"忽略阿拉伯语变音符号（测试版）\""
+                },
+                {
+                    "source": "\"Disable on this device\"",
+                    "target": "\"在此设备上禁用\""
+                },
+                {
+                    "source": "\"Force save the cache\"",
+                    "target": "\"强制保存缓存\""
+                },
+                {
+                    "source": "\"Clear cache data\"",
+                    "target": "\"清除缓存数据\""
+                },
+                {
+                    "source": "\"API Access Through HTTP\"",
+                    "target": "\"通过 HTTP 访问 API\""
+                },
+                {
+                    "source": "\"Enable the HTTP server\"",
+                    "target": "\"启用 HTTP 服务器\""
+                },
+                {
+                    "source": "\"HTTP Port\"",
+                    "target": "\"HTTP 端口\""
+                },
+                {
+                    "source": "\"Show a notification when the server starts\"",
+                    "target": "\"服务器启动时显示通知\""
+                },
+                {
+                    "source": "\"Indexing\"",
+                    "target": "\"索引\""
+                },
+                {
+                    "source": "\"Index paths of unsupported files\"",
+                    "target": "\"索引不支持的文件路径\""
+                },
+                {
+                    "source": "\"Set frontmatter property key as title\"",
+                    "target": "\"使用 YAML 属性作为标题\""
+                },
+                {
+                    "source": "\"Additional TEXT files to index\"",
+                    "target": "\"额外索引的纯文本文件\""
+                },
+                {
+                    "source": "\"Index files without extension\"",
+                    "target": "\"索引无扩展名文件\""
+                },
+                {
+                    "source": "\"User Interface\"",
+                    "target": "\"用户界面\""
+                },
+                {
+                    "source": "\"Show ribbon button\"",
+                    "target": "\"显示侧边栏按钮\""
+                },
+                {
+                    "source": "\"Show excerpts\"",
+                    "target": "\"显示摘要\""
+                },
+                {
+                    "source": "\"Show embed references\"",
+                    "target": "\"显示嵌入引用\""
+                },
+                {
+                    "source": "\"Render line return in excerpts\"",
+                    "target": "\"在摘要中显示换行\""
+                },
+                {
+                    "source": "\"Highlight matching words in results\"",
+                    "target": "\"高亮结果中的匹配词\""
+                },
+                {
+                    "source": "\"Results weighting\"",
+                    "target": "\"搜索结果权重\""
+                },
+                {
+                    "source": "\"Header properties fields\"",
+                    "target": "\"属性字段\""
+                },
+                {
+                    "source": "\"Recency boost (experimental)\"",
+                    "target": "\"近期修改加权（实验性）\""
+                },
+                {
+                    "source": "\"Debugging\"",
+                    "target": "\"调试\""
+                },
+                {
+                    "source": "\"Enable verbose logging\"",
+                    "target": "\"启用详细日志\""
+                },
+                {
+                    "source": "\"Vault search\"",
+                    "target": "\"搜索整个知识库\""
+                },
+                {
+                    "source": "\"In-file search\"",
+                    "target": "\"在当前文件中搜索\""
+                },
+                {
+                    "source": "\"Exact match\"",
+                    "target": "\"精确匹配\""
+                },
+                {
+                    "source": "\"Not too fuzzy\"",
+                    "target": "\"轻度模糊\""
+                },
+                {
+                    "source": "\"Fuzzy enough\"",
+                    "target": "\"较高模糊度\""
+                },
+                {
+                    "source": "\"Clear cache\"",
+                    "target": "\"清除缓存\""
+                },
+                {
+                    "source": "\"Add a new property\"",
+                    "target": "\"添加属性\""
+                },
+                {
+                    "source": "\"Remove\"",
+                    "target": "\"移除\""
+                },
+                {
+                    "source": "\"Property name\"",
+                    "target": "\"属性名称\""
+                },
+                {
+                    "source": "\"24 hours\"",
+                    "target": "\"24 小时\""
+                },
+                {
+                    "source": "\"7 days\"",
+                    "target": "\"7 天\""
+                },
+                {
+                    "source": "\"30 days\"",
+                    "target": "\"30 天\""
+                },
+                {
+                    "source": "\"Example: src,p2/dir\"",
+                    "target": "\"例如：src,p2/dir\""
+                },
+                {
+                    "source": "\"Example: txt org csv\"",
+                    "target": "\"例如：txt org csv\""
+                },
+                {
+                    "source": "\"Enable caching to speed up indexing time. In rare cases, the cache write may cause a crash in Obsidian. This option will disable itself if it happens.\"",
+                    "target": "\"启用缓存以加快索引速度。极少数情况下，写入缓存可能导致 Obsidian 崩溃；发生时此选项将自动关闭。\""
+                },
+                {
+                    "source": "\"Re-executes the previous query when opening Omnisearch.\"",
+                    "target": "\"打开 Omnisearch 时重新执行上次搜索。\""
+                },
+                {
+                    "source": "\"Folders to downrank in search results. Files in these folders will be downranked in results.  They will still be indexed for tags, unlike excluded files.  Folders should be comma delimited.\"",
+                    "target": "\"降低这些文件夹中文件的搜索排名。与排除的文件不同，其标签仍会被索引。多个文件夹请用逗号分隔。\""
+                },
+                {
+                    "source": "\"Open and create files in a new pane instead of the current pane.\"",
+                    "target": "\"在新窗格而非当前窗格中打开和创建文件。\""
+                },
+                {
+                    "source": "\"Define the level of fuzziness for the search. The higher the fuzziness, the more results you'll get.\"",
+                    "target": "\"设置搜索的模糊匹配程度。程度越高，搜索结果越多。\""
+                },
+                {
+                    "source": "\"Will display a notification if the server is enabled, at Obsidian startup.\"",
+                    "target": "\"如果服务器已启用，在 Obsidian 启动时显示通知。\""
+                },
+                {
+                    "source": "\"Omnisearch will use Text Extractor to index the content of your PDFs.\"",
+                    "target": "\"Omnisearch 将使用 Text Extractor 索引 PDF 内容。\""
+                },
+                {
+                    "source": "\"Omnisearch will use Text Extractor to OCR your images and index their content.\"",
+                    "target": "\"Omnisearch 将使用 Text Extractor 识别图片文字并索引其内容。\""
+                },
+                {
+                    "source": "\"Add a button on the sidebar to open the Vault search modal.\"",
+                    "target": "\"在侧边栏添加打开知识库搜索窗口的按钮。\""
+                },
+                {
+                    "source": "\"Shows the contextual part of the note that matches the search. Disable this to only show filenames in results.\"",
+                    "target": "\"显示笔记中与搜索匹配的上下文。关闭后结果仅显示文件名。\""
+                },
+                {
+                    "source": "\"Activate this option to render line returns in result excerpts.\"",
+                    "target": "\"启用后在结果摘要中显示换行。\""
+                },
+                {
+                    "source": "\"Will highlight matching results when enabled. See README for more customization options.\"",
+                    "target": "\"启用后高亮匹配结果。更多自定义选项请参阅 README。\""
+                },
+                {
+                    "source": "\"Files that have been modified more recently than [selected cutoff] are given a higher rank.\"",
+                    "target": "\"在所选时间范围内修改过的文件将获得更高排名。\""
+                },
+                {
+                    "source": "PDFs content indexing ",
+                    "target": "PDF 内容索引 "
+                },
+                {
+                    "source": "Images OCR indexing ",
+                    "target": "图片 OCR 索引 "
+                },
+                {
+                    "source": "Documents content indexing ",
+                    "target": "文档内容索引 "
+                },
+                {
+                    "source": "Images AI indexing ",
+                    "target": "图片 AI 索引 "
+                },
+                {
+                    "source": "File name & declared aliases (default: ",
+                    "target": "文件名及声明的别名（默认："
+                },
+                {
+                    "source": "File directory (default: ",
+                    "target": "文件目录（默认："
+                },
+                {
+                    "source": "Headings level 1 (default: ",
+                    "target": "一级标题（默认："
+                },
+                {
+                    "source": "Headings level 2 (default: ",
+                    "target": "二级标题（默认："
+                },
+                {
+                    "source": "Headings level 3 (default: ",
+                    "target": "三级标题（默认："
+                },
+                {
+                    "source": "Tags (default: ",
+                    "target": "标签（默认："
+                }
+            ]
+        }
+    }
+}
+
