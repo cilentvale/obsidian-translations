@@ -1,0 +1,95 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tray",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "0.3.5",
+        "title": "Tray 0.3.5 简体中文",
+        "description": "适配 Tray 0.3.5，包含托盘菜单、动态设置名称与说明。",
+        "author": "cilentvale"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": [
+                {
+                    "source": "  ACTION_QUICK_NOTE = \"Quick Note\",\n  ACTION_SHOW = \"Show Vault\",\n  ACTION_HIDE = \"Hide Vault\",\n  ACTION_RELAUNCH = \"Relaunch Obsidian\",\n  ACTION_CLOSE = \"Close Vault\",\n",
+                    "target": "  ACTION_QUICK_NOTE = \"快速笔记\",\n  ACTION_SHOW = \"显示知识库\",\n  ACTION_HIDE = \"隐藏知识库\",\n  ACTION_RELAUNCH = \"重启 Obsidian\",\n  ACTION_CLOSE = \"关闭知识库\",\n"
+                },
+                {
+                    "source": "    This hotkey is registered globally and will be detected even if Obsidian does\n    not have keyboard focus. Format:\n",
+                    "target": "    此快捷键为全局快捷键，即使 Obsidian 不在前台也可使用。 格式：\n"
+                },
+                {
+                    "source": "    Electron accelerator</a>\n",
+                    "target": "    Electron 快捷键格式</a>\n"
+                },
+                {
+                    "source": "    Format:\n",
+                    "target": "    格式：\n"
+                },
+                {
+                    "source": "    Moment.js format string</a>\n",
+                    "target": "    Moment.js 日期格式字符串</a>\n"
+                },
+                {
+                    "source": "  \"Window management\",\n",
+                    "target": "  \"窗口管理\",\n"
+                },
+                {
+                    "source": "    desc: \"Open Obsidian automatically whenever you log into your computer.\",\n",
+                    "target": "    desc: \"登录电脑时自动启动 Obsidian。\",\n"
+                },
+                {
+                    "source": "      Minimises Obsidian automatically whenever the app is launched. If the\n      \"Run in background\" option is enabled, windows will be hidden to the system\n      tray/menubar instead of minimised to the taskbar/dock.\n",
+                    "target": "      启动 Obsidian 时自动最小化。启用“后台运行”后，窗口将隐藏到系统托盘或菜单栏，而不是最小化到任务栏或程序坞。\n"
+                },
+                {
+                    "source": "      Hides the app and continues to run it in the background instead of quitting\n      it when pressing the window close button or toggle focus hotkey.\n",
+                    "target": "      点击窗口关闭按钮或按窗口切换快捷键时，隐藏应用并继续在后台运行，而不是退出。\n"
+                },
+                {
+                    "source": "      Hides the window's icon from from the dock/taskbar. Enabling the tray icon first\n      is recommended if using this option. This may not work on Linux-based OSes.\n",
+                    "target": "      隐藏程序坞或任务栏中的窗口图标。建议先启用托盘图标；此选项在 Linux 上可能无效。\n"
+                },
+                {
+                    "source": "      Adds an icon to your system tray/menubar to bring hidden Obsidian windows\n      back into focus on click or force a full quit/relaunch of the app through\n      the right-click menu.\n",
+                    "target": "      在系统托盘或菜单栏添加图标，点击可显示隐藏的窗口；右键菜单可完全退出或重启应用。\n"
+                },
+                {
+                    "source": "      Set the image used by the tray/menubar icon. Recommended size: 16x16\n      <br>Preview: <img data-preview style=\"height: 16px; vertical-align: bottom;\">\n",
+                    "target": "      设置托盘或菜单栏图标的图片。推荐尺寸：16×16\n      <br>预览： <img data-preview style=\"height: 16px; vertical-align: bottom;\">\n"
+                },
+                {
+                    "source": "      Set a title to identify the tray/menubar icon by. The\n      <code>{{vault}}</code> placeholder will be replaced by the vault name.\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n",
+                    "target": "      设置托盘或菜单栏图标的提示文字。占位符 <code>{{vault}}</code> 将替换为知识库名称。\n      <br>预览： <b class=\"u-pop\" data-preview></b>\n"
+                },
+                {
+                    "source": "  \"Quick notes\",\n",
+                    "target": "  \"快速笔记\",\n"
+                },
+                {
+                    "source": "    desc: \"New quick notes will be placed in this folder.\",\n",
+                    "target": "    desc: \"新的快速笔记将保存在此文件夹中。\",\n"
+                },
+                {
+                    "source": "    placeholder: \"Example: notes/quick\",\n",
+                    "target": "    placeholder: \"例如：notes/quick\",\n"
+                },
+                {
+                    "source": "      New quick notes will use a filename of this pattern. ${MOMENT_FORMAT}\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n",
+                    "target": "      新快速笔记将使用此格式作为文件名。${MOMENT_FORMAT}\n      <br>预览： <b class=\"u-pop\" data-preview></b>\n"
+                },
+                {
+                    "source": "    key[0].toUpperCase() +\n",
+                    "target": "    ({launchOnStartup:\"开机启动\", hideOnLaunch:\"启动时隐藏\", runInBackground:\"后台运行\", hideTaskbarIcon:\"隐藏任务栏图标\", createTrayIcon:\"显示托盘图标\", trayIconImage:\"托盘图标图片\", trayIconTooltip:\"托盘图标提示文字\", toggleWindowFocusHotkey:\"切换窗口全局快捷键\", quickNoteLocation:\"快速笔记保存位置\", quickNoteDateFormat:\"快速笔记日期格式\", quickNoteHotkey:\"快速笔记全局快捷键\"})[key] ?? key[0].toUpperCase() +\n"
+                },
+                {
+                    "source": "        if (opt.default) opt.placeholder ??= `Example: ${opt.default}`;\n",
+                    "target": "        if (opt.default) opt.placeholder ??= `例如：${opt.default}`;\n"
+                }
+            ]
+        }
+    }
+}
