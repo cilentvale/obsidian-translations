@@ -55,13 +55,13 @@
         "id": "unitade328zhcn",
         "plugin": "unitade",
         "language": "zh-cn",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "supported_versions": "3.2.8",
         "title": "UNITADE.md 3.2.8 简体中文",
-        "description": "汉化设置、警告、命令、弹窗及状态栏，保留危险操作提示。",
-        "hash": "07f0215907f0215907f0215907f02159",
+        "description": "汉化插件界面并修复空扩展名导致的视图重复注册。",
+        "hash": "36ad313236ad313236ad313236ad3132",
         "created_at": "2026-10-28T10:19:01.980Z",
-        "updated_at": "2026-10-28T10:19:01.980Z",
+        "updated_at": "2026-10-28T10:24:52.330Z",
         "type": "plugin"
     }
 ]
